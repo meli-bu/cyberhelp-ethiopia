@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberHelp Ethiopia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+   
+<nav>
+
+    <div class="logo">
+        🛡️ CyberHelp Ethiopia
+    </div>
+
+    <div class="nav-links" id="nav-links">
+
+        <a href="#home">Home</a>
+        <a href="#help">Get Help</a>
+        <a href="#tools">Security Tools</a>
+        <a href="#learn">Learn</a>
+        <a href="#about">About</a>
+
+    </div>
+
+    <button
+        id="theme-toggle"
+        class="theme-toggle">
+
+        🌙
+
+    </button>
+
+    <button
+        class="menu-toggle"
+        id="menu-toggle">
+
+        ☰
+
+    </button>
+
+</nav>
+
+    <!-- Hero section -->
+   
+       <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="welcome-container">
+            <p class="welcome">
+                🇪🇹 ETHIOPIAN YOUTH CYBER SAFETY PLATFORM
+            </p>
+        </div>
+
+        <h1>
+            Stay Safe.
+            Stay Smart.
+            Stay Connected.
+        </h1>
+
+        <p class="hero-text">
+            CyberHelp Ethiopia helps students and young people recognize
+            phishing attacks, secure online accounts, protect personal
+            information, and respond to cyber incidents with confidence.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#help" class="btn primary">
+                🚨 Get Emergency Help
+            </a>
+
+            <a href="#tools" class="btn secondary">
+                🔎 Explore Security Tools
+            </a>
+        </div>
+
+    </div>
+
+    </section>
+    <section class="stats">
+
+    <div class="stat-card">
+        <h2>5+</h2>
+        <p>Emergency Cyber Guides</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>2</h2>
+        <p>Interactive Security Tools</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>5</h2>
+        <p>Cyber Safety Check</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>15</h2>
+        <p>Cyber Quest Gaming</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>100%</h2>
+        <p>Free Cyber Awareness Platform</p>
+    </div>
+
+</section>
+
+
+    <!-- Get Help section -->
+    <section id="help" class="section">
+
+        <div class="section-heading">
+
+            <p class="small-title">GET IMMEDIATE GUIDANCE</p>
+
+            <h2>What happened?</h2>
+
+            <p>
+                Choose the situation that best describes your problem.
+            </p>
+
+        </div>
+
+
+        <div class="incident-grid">
+
+            <div class="incident-card">
+                <div class="icon">🎣</div>
+                <h3>I clicked a suspicious link</h3>
+                <p>
+                    Learn what to do if you clicked a potentially
+                    dangerous link.
+                </p>
+                <button>Get Help</button>
+            </div>
+
+
+            <div class="incident-card">
+                <div class="icon">🔐</div>
+                <h3>My account was hacked</h3>
+                <p>
+                    Steps to take when someone may have accessed
+                    your account.
+                </p>
+                <button>Get Help</button>
+            </div>
+
+
+            <div class="incident-card">
+                <div class="icon">💳</div>
+                <h3>I think I've been scammed</h3>
+                <p>
+                    Learn what to do if you think you have
+                    encountered an online scam.
+                </p>
+                <button>Get Help</button>
+            </div>
+
+
+            <div class="incident-card">
+                <div class="icon">🔑</div>
+                <h3>Someone knows my password</h3>
+                <p>
+                    Learn the first steps to protect your
+                    account and credentials.
+                </p>
+                <button>Get Help</button>
+            </div>
+
+
+            <div class="incident-card">
+                <div class="icon">📱</div>
+                <h3>I received a suspicious message</h3>
+                <p>
+                    Learn how to recognize suspicious messages
+                    and avoid common traps.
+                </p>
+                <button>Get Help</button>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- ========================================
+     SECURITY TOOLS
+======================================== -->
+
+<section id="tools" class="section tools-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">PROTECT YOURSELF</p>
+
+        <h2>Security Tools</h2>
+
+        <p>
+            Use our educational tools to improve your
+            cybersecurity awareness.
+        </p>
+
+    </div>
+
+
+    <div class="tools-grid">
+
+
+        <!-- Password Checker -->
+
+        <div class="tool-card">
+
+            <div class="icon">🔐</div>
+
+            <h3>Password Checker</h3>
+
+            <p>
+                Check the basic strength of a
+                test password.
+            </p>
+
+            <button id="open-password-tool">
+                Check Password
+            </button>
+
+        </div>
+
+
+        <!-- URL Analyzer -->
+
+        <div class="tool-card">
+
+            <div class="icon">🔎</div>
+
+            <h3>URL Risk Analyzer</h3>
+
+            <p>
+                Check a URL for basic suspicious
+                characteristics.
+            </p>
+
+            <button id="open-url-tool">
+                Analyze URL
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- ========================================
+         URL ANALYZER
+    ======================================== -->
+
+    <div id="url-tool" class="interactive-tool">
+
+        <button class="tool-close" id="close-url-tool">
+            ✕
+        </button>
+
+        <h2>🔎 URL Risk Analyzer</h2>
+
+        <p>
+            Enter a URL to check it against VirusTotal's
+               security analysis results.
+        </p>
+
+        <div class="tool-warning">
+
+            ⚠️
+            <strong>Important:</strong>
+
+            This is an educational tool.
+            It cannot guarantee that a website is
+            safe or malicious.
+
+        </div>
+
+
+        <label for="url-input">
+            Enter URL
+        </label>
+
+        <input
+            type="text"
+            id="url-input"
+            placeholder="https://example.com"
+        >
+
+
+        <button id="analyze-url">
+            🔎 Analyze URL
+        </button>
+
+
+        <div id="url-result"></div>
+
+    </div>
+
+    <!-- ========================================
+     PASSWORD STRENGTH CHECKER
+======================================== -->
+
+<div id="password-tool" class="interactive-tool">
+
+    <button class="tool-close" id="close-password-tool">
+        ✕
+    </button>
+
+    <h2>🔐 Password Strength Checker</h2>
+
+    <p>
+        Test the strength of a sample password.
+    </p>
+
+
+    <div class="tool-warning">
+
+        ⚠️
+        <strong>Important:</strong>
+
+        Never enter your real password here.
+        Use a test password instead.
+
+    </div>
+
+
+    <label for="password-input">
+        Test Password
+    </label>
+
+
+    <input
+        type="password"
+        id="password-input"
+        placeholder="Enter a test password"
+    >
+
+
+    <div class="password-meter">
+
+        <div
+            id="password-meter-bar"
+            class="password-meter-bar">
+        </div>
+
+    </div>
+
+
+    <p id="password-strength">
+        Strength: Not checked
+    </p>
+
+
+    <div id="password-checks"></div>
+
+
+    <button id="check-password">
+        🔐 Check Password
+    </button>
+
+</div>
+
+</section>
+    
+<!-- ========================================
+     PHISHING AWARENESS QUIZ
+======================================== -->
+
+<!-- ========================================
+     CYBERQUEST: WELCOME AND AGE SELECTION
+======================================== -->
+
+<section id="cyberquest-entry" class="cyberquest-entry">
+
+    <!-- Welcome screen -->
+    <div id="cyberquest-welcome" class="cyberquest-panel">
+
+        <p class="cyberquest-label">
+            🇪🇹 CYBERHELP ETHIOPIA PRESENTS
+        </p>
+
+        <div class="cyberquest-mascot" aria-hidden="true">
+            🛡️ 🤖
+        </div>
+
+        <h2>CyberQuest: Become a Cyber Hero</h2>
+        <p class="cyberquest-description">
+    Learn to stay safe online through fun cybersecurity missions!
+</p>
+
+        <p class="cyberquest-description">
+            Your digital adventure starts here!
+            Explore Ethiopia, outsmart online scams,
+            and learn to protect yourself online.
+        </p>
+<!-- Player progress -->
+<div class="cyberquest-player-stats">
+
+    <div class="cyberquest-stat">
+        <span>⭐</span>
+        <strong id="cyberquest-xp">0 XP</strong>
+        <small>Total XP</small>
+    </div>
+
+    <div class="cyberquest-stat">
+        <span>🏆</span>
+        <strong id="cyberquest-badge-count">0</strong>
+        <small>Badges earned</small>
+    </div>
+
+    <div class="cyberquest-stat">
+        <span>🗺️</span>
+        <strong id="cyberquest-completed-count">0/5</strong>
+        <small>Missions complete</small>
+    </div>
+
+</div>
+
+<div id="cyberquest-badges" class="cyberquest-badges">
+    <p>Your badges will appear here as you progress!</p>
+</div>
+        <button id="cyberquest-start" type="button">
+            Start Your Adventure →
+        </button>
+
+        <p class="cyberquest-note">
+            Learn smart. Stay safe. Protect your community.
+        </p>
+
+    </div>
+
+
+    <!-- Age selection screen: hidden until Start is clicked -->
+    <div
+        id="cyberquest-age-selection"
+        class="cyberquest-panel"
+        hidden
+    >
+
+        <p class="cyberquest-label">
+            YOUR ADVENTURE BEGINS
+        </p>
+
+        <h2>Choose Your Adventure</h2>
+
+        <p class="cyberquest-description">
+            Choose the experience that suits your age.
+        </p>
+
+
+        <div class="cyberquest-age-grid">
+
+            <button
+                type="button"
+                class="cyberquest-age-card"
+                data-age-group="under8"
+            >
+                <span class="age-icon">🌟</span>
+                <strong>Little Cyber Heroes</strong>
+                <span>Under 8 years</span>
+                <span class="age-action">Choose this adventure →</span>
+            </button>
+
+
+            <button
+                type="button"
+                class="cyberquest-age-card"
+                data-age-group="8to11"
+            >
+                <span class="age-icon">🕵️</span>
+                <strong>Cyber Explorers</strong>
+                <span>Ages 8–11</span>
+                <span class="age-action">Choose this adventure →</span>
+            </button>
+
+
+            <button
+                type="button"
+                class="cyberquest-age-card"
+                data-age-group="12plus"
+            >
+                <span class="age-icon">🔐</span>
+                <strong>Cyber Investigators</strong>
+                <span>Ages 12+</span>
+                <span class="age-action">Choose this adventure →</span>
+            </button>
+
+        </div>
+
+
+        <button
+            id="cyberquest-back"
+            class="cyberquest-back"
+            type="button"
+        >
+            ← Back
+        </button>
+
+    </div>
+
+</section>
+
+<!-- END OF CYBERQUEST WELCOME AND AGE SELECTION -->
+
+
+<!-- ========================================
+     CYBERQUEST: ETHIOPIA MISSION MAP
+======================================== -->
+
+<section id="cyberquest-map" class="cyberquest-map" hidden>
+
+    <div class="cyberquest-map-container">
+
+        <p class="cyberquest-label">🇪🇹 YOUR CYBER ADVENTURE</p>
+
+        <h2>Explore Ethiopia. Become a Cyber Hero!</h2>
+
+        <p class="cyberquest-description">
+            Complete missions, learn online safety,
+            and unlock your next destination.
+        </p>
+
+        <div class="cyberquest-progress">
+            <span>YOUR MISSION PROGRESS</span>
+            <strong id="cyberquest-level-progress">Level 1 of 5</strong>
+
+            <div class="cyberquest-progress-track">
+                <div id="cyberquest-progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="cyberquest-map-route">
+
+            <button type="button"
+                class="cyberquest-mission unlocked"
+                data-cyberquest-level="1">
+                <span class="mission-icon">🏛️</span>
+                <strong>Mission 1</strong>
+                <span>Digital Beginnings</span>
+                <small>Available now</small>
+            </button>
+
+            <div class="mission-connector"></div>
+
+            <button type="button"
+                class="cyberquest-mission locked"
+                data-cyberquest-level="2"
+                disabled>
+                <span class="mission-icon">🔑</span>
+                <strong>Mission 2</strong>
+                <span>Password Fortress</span>
+                <small>🔒 Locked</small>
+            </button>
+
+            <div class="mission-connector"></div>
+
+            <button type="button"
+                class="cyberquest-mission locked"
+                data-cyberquest-level="3"
+                disabled>
+                <span class="mission-icon">📩</span>
+                <strong>Mission 3</strong>
+                <span>Phishing Detectives</span>
+                <small>🔒 Locked</small>
+            </button>
+
+            <div class="mission-connector"></div>
+
+            <button type="button"
+                class="cyberquest-mission locked"
+                data-cyberquest-level="4"
+                disabled>
+                <span class="mission-icon">🌐</span>
+                <strong>Mission 4</strong>
+                <span>Safe Browsing Trail</span>
+                <small>🔒 Locked</small>
+            </button>
+
+            <div class="mission-connector"></div>
+
+            <button type="button"
+                class="cyberquest-mission locked"
+                data-cyberquest-level="5"
+                disabled>
+                <span class="mission-icon">🛡️</span>
+                <strong>Mission 5</strong>
+                <span>Cyber Hero Challenge</span>
+                <small>🔒 Locked</small>
+            </button>
+
+        </div>
+
+        <button id="cyberquest-map-back"
+            class="cyberquest-back"
+            type="button">
+            ← Back to Age Selection
+        </button>
+
+    </div>
+
+</section>
+
+<!-- END OF CYBERQUEST ETHIOPIA MISSION MAP -->
+
+
+<!-- =====================================
+     CYBERQUEST: PLAYABLE ADVENTURE GAME
+====================================== -->
+
+<section id="cyberquest-game" class="cyberquest-game" hidden>
+
+    <div class="cyberquest-game-container">
+
+        <p class="cyberquest-game-label">
+            🇪🇹 CYBERQUEST • ETHIOPIA ADVENTURE
+        </p>
+
+        <h2 id="cyberquest-game-title">
+            Mission 1: The Lost Cyber Shields
+        </h2>
+
+        <p id="cyberquest-game-instructions">
+            Explore the landscape, collect cyber shields,
+            and avoid the obstacles!
+        </p>
+
+        <!-- Game information -->
+        <div class="cyberquest-game-hud">
+            <span>🎯 Mission: <strong id="game-target">0 / 5</strong></span>
+            <span>⭐ XP: <strong id="game-xp">0</strong></span>
+            <span>❤️ Lives: <strong id="game-lives">3</strong></span>
+            <span>⏱️ Timer: <strong id="game-timer">--</strong></span>
+            <span style="display: none;" aria-hidden="true"><strong id="game-shields">0</strong></span>
+        </div>
+
+        <!-- The game world will be drawn here -->
+        <div class="cyberquest-canvas-wrapper">
+            <canvas
+                id="cyberquest-canvas"
+                width="900"
+                height="480"
+                aria-label="CyberQuest educational game. Tap directly on game elements or use arrow keys / touch controls."
+                tabindex="0">
+            </canvas>
+        </div>
+
+        <p class="cyberquest-control-hint">
+            💻 Computer: Use Arrow Keys, WASD, Space, or Click/Tap directly on targets.
+            📱 Phone: Tap directly on game targets or use directional buttons below.
+        </p>
+
+        <!-- Phone and touch controls -->
+        <div class="cyberquest-touch-controls"
+             aria-label="Game movement controls">
+
+            <button type="button" class="game-control"
+                    data-direction="up" aria-label="Move up / Action">
+                ▲
+            </button>
+
+            <div class="game-control-row">
+
+                <button type="button" class="game-control"
+                        data-direction="left" aria-label="Move left">
+                    ◀
+                </button>
+
+                <button type="button" class="game-control"
+                        data-direction="down" aria-label="Move down">
+                    ▼
+                </button>
+
+                <button type="button" class="game-control"
+                        data-direction="right" aria-label="Move right">
+                    ▶
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Game messages and actions -->
+        <p id="cyberquest-game-message" role="status" aria-live="polite">
+            Ready, Cyber Hero? Let's begin the educational mission!
+        </p>
+
+        <div class="cyberquest-game-actions">
+
+            <button type="button" id="cyberquest-play">
+                🎮 Start Game
+            </button>
+
+            <button type="button" id="cyberquest-game-back">
+                🗺️ Back to Mission Map
+            </button>
+
+        </div>
+
+        <!-- Victory screen; hidden until the mission is completed -->
+        <div id="cyberquest-victory" class="cyberquest-victory"
+             hidden role="status">
+
+            <div class="victory-mascot">🏆</div>
+
+            <h2 id="cyberquest-victory-heading">ድንቅ ሥራ! Amazing Work, Cyber Hero!</h2>
+
+            <p id="cyberquest-victory-message">
+                You've protected your digital world!
+            </p>
+
+            <p id="cyberquest-victory-xp">
+                ⭐ You earned 100 XP!
+            </p>
+
+            <div id="cyberquest-victory-badge">
+                🛡️ Cyber Defender
+            </div>
+
+            <div class="victory-buttons">
+                <button type="button" id="cyberquest-next-mission">
+                    🗺️ Next Mission
+                </button>
+                <button type="button" id="cyberquest-replay-mission" class="btn-replay">
+                    🔄 Replay Mission
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END OF CYBERQUEST GAME -->
+
+
+<section id="phishing-quiz" class="quiz-section" hidden>
+
+    <div class="section-heading">
+
+        <p class="small-title">
+            TEST YOUR CYBERSECURITY KNOWLEDGE
+        </p>
+
+        <h2>🎣 Phishing Awareness Quiz</h2>
+
+        <p>
+            Can you recognize common phishing attempts?
+        </p>
+
+    </div>
+
+
+    <div class="quiz-container">
+
+        <div class="quiz-top">
+
+            <span id="question-number">
+                Question 1 of 5
+            </span>
+
+            <span id="quiz-score">
+                Score: 0
+            </span>
+
+        </div>
+
+
+        <div class="quiz-message">
+
+            <div class="message-icon">
+                📩
+            </div>
+
+            <p id="quiz-question">
+                Loading question...
+            </p>
+
+        </div>
+
+
+<div id="quiz-options">
+
+    <button
+        class="quiz-option"
+        id="phishing-answer"
+        type="button">
+        🚨 This is Phishing
+    </button>
+
+    <button
+        class="quiz-option"
+        id="safe-answer"
+        type="button">
+        ✅ This looks Safe
+    </button>
+
+    <button
+        class="quiz-option"
+        id="third-answer"
+        type="button"
+        hidden>
+    </button>
+
+</div>
+
+       
+        <div id="quiz-feedback"></div>
+
+
+        <button
+            id="next-question"
+            class="next-question">
+
+            Next Question →
+
+        </button>
+
+
+        <div
+            id="quiz-result"
+            class="quiz-result">
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Learning section -->
+     <!-- ========================================
+     CYBER SAFETY CHECK
+======================================== -->
+
+<section id="safety-check" class="safety-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">
+            KNOW YOUR SECURITY LEVEL
+        </p>
+
+        <h2>🛡️ Cyber Safety Check</h2>
+
+        <p>
+            Answer a few questions and discover
+            areas where you can improve your
+            online security.
+        </p>
+
+    </div>
+
+
+    <div class="safety-container">
+
+        <div class="safety-question">
+
+            <h3>
+                Do you use two-factor authentication
+                on your important accounts?
+            </h3>
+
+            <div class="safety-options">
+
+                <button
+                    class="safety-answer"
+                    data-points="20">
+
+                    ✅ Yes
+
+                </button>
+
+
+                <button
+                    class="safety-answer"
+                    data-points="0">
+
+                    ❌ No
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="safety-question">
+
+            <h3>
+                Do you use different passwords
+                for important accounts?
+            </h3>
+
+            <div class="safety-options">
+
+                <button
+                    class="safety-answer"
+                    data-points="20">
+
+                    ✅ Yes
+
+                </button>
+
+
+                <button
+                    class="safety-answer"
+                    data-points="0">
+
+                    ❌ No
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="safety-question">
+
+            <h3>
+                Do you verify suspicious links
+                before clicking them?
+            </h3>
+
+            <div class="safety-options">
+
+                <button
+                    class="safety-answer"
+                    data-points="20">
+
+                    ✅ Yes
+
+                </button>
+
+
+                <button
+                    class="safety-answer"
+                    data-points="0">
+
+                    ❌ No
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="safety-question">
+
+            <h3>
+                Do you avoid sharing OTPs
+                with other people?
+            </h3>
+
+            <div class="safety-options">
+
+                <button
+                    class="safety-answer"
+                    data-points="20">
+
+                    ✅ Yes
+
+                </button>
+
+
+                <button
+                    class="safety-answer"
+                    data-points="0">
+
+                    ❌ No
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="safety-question">
+
+            <h3>
+                Do you keep your important devices
+                updated?
+            </h3>
+
+            <div class="safety-options">
+
+                <button
+                    class="safety-answer"
+                    data-points="20">
+
+                    ✅ Yes
+
+                </button>
+
+
+                <button
+                    class="safety-answer"
+                    data-points="0">
+
+                    ❌ No
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <button
+            id="calculate-safety"
+            class="calculate-safety">
+
+            🛡️ Calculate My Score
+
+        </button>
+
+
+        <div
+            id="safety-result"
+            class="safety-result">
+
+        </div>
+
+    </div>
+
+</section>
+    <section id="learn" class="section">
+
+        <div class="section-heading">
+
+            <p class="small-title">LEARN TO STAY SAFE</p>
+
+            <h2>Cybersecurity Basics</h2>
+
+            <p>
+                Simple lessons about common online threats.
+            </p>
+
+        </div>
+
+
+        <div class="learning-grid">
+
+            <div class="learning-card" data-category="phishing" role="button" tabindex="0" aria-label="Learn about Phishing">
+                <div class="learning-icon">🎣</div>
+                <h3>Phishing</h3>
+                <p>
+                    Learn how attackers trick people into
+                    giving away sensitive information.
+                </p>
+                <button class="learn-btn" type="button">Learn More →</button>
+            </div>
+
+
+            <div class="learning-card" data-category="password" role="button" tabindex="0" aria-label="Learn about Password Security">
+                <div class="learning-icon">🔐</div>
+                <h3>Password Security</h3>
+                <p>
+                    Learn how to create and protect strong,
+                    unique passwords.
+                </p>
+                <button class="learn-btn" type="button">Learn More →</button>
+            </div>
+
+
+            <div class="learning-card" data-category="otp" role="button" tabindex="0" aria-label="Learn about OTP Safety">
+                <div class="learning-icon">🔢</div>
+                <h3>OTP Safety</h3>
+                <p>
+                    Learn why you should never share
+                    one-time passwords.
+                </p>
+                <button class="learn-btn" type="button">Learn More →</button>
+            </div>
+
+
+            <div class="learning-card" data-category="scams" role="button" tabindex="0" aria-label="Learn about Online Scams">
+                <div class="learning-icon">💳</div>
+                <h3>Online Scams</h3>
+                <p>
+                    Learn how to recognize common scam
+                    warning signs.
+                </p>
+                <button class="learn-btn" type="button">Learn More →</button>
+            </div>
+
+        </div>
+
+    </section>
+<section class="tips-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">
+            QUICK SECURITY TIPS
+        </p>
+
+        <h2>🛡️ Cyber Tips Every Student Should Know</h2>
+
+    </div>
+
+    <div class="tips-grid">
+
+        <div class="tip-card">
+            🔐
+            <h3>Use Strong Passwords</h3>
+            <p>Create passwords with letters, numbers and symbols.</p>
+        </div>
+
+        <div class="tip-card">
+            🎣
+            <h3>Don't Trust Urgent Messages</h3>
+            <p>Scammers often create panic to make you click quickly.</p>
+        </div>
+
+        <div class="tip-card">
+            🔢
+            <h3>Never Share OTP Codes</h3>
+            <p>Your OTP should never be shared with another person.</p>
+        </div>
+
+        <div class="tip-card">
+            📱
+            <h3>Update Your Device</h3>
+            <p>Security updates fix known vulnerabilities.</p>
+        </div>
+
+        <div class="tip-card">
+            🌐
+            <h3>Check Website Addresses</h3>
+            <p>Verify URLs before entering personal information.</p>
+        </div>
+
+        <div class="tip-card">
+            👤
+            <h3>Protect Your Privacy</h3>
+            <p>Avoid sharing sensitive personal information publicly.</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- About -->
+    
+<section id="about" class="about-section">
+
+    <h2>About CyberHelp Ethiopia</h2>
+
+    <p>
+        CyberHelp Ethiopia is a cybersecurity awareness website created for
+        Ethiopian youth. It provides simple guidance for responding to common
+        online security incidents such as phishing, hacked accounts, suspicious
+        links, scams, and password exposure.
+    </p>
+
+    <p>
+        The platform also includes interactive tools that teach users how to
+        recognize phishing attacks, evaluate password strength, analyze URLs,
+        and improve their everyday cybersecurity habits.
+    </p>
+
+
+
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+    <h2>🛡️ CyberHelp Ethiopia</h2>
+
+    <p>
+        Empowering Ethiopian youth with practical cybersecurity awareness.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#tools">Security Tools</a>
+
+        <a href="#learn">Learn</a>
+
+        <a href="#about">About</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 CyberHelp Ethiopia | Educational Project
+    </p>
+
+</footer>
+
+    <!-- ========================================
+         CYBERHELP ETHIOPIA AI CHATBOT
+    ======================================== -->
+    <div id="cyber-chatbot-container" class="cyber-chatbot-container">
+        <!-- Chatbot launcher button -->
+        <button id="chatbot-toggle-btn" class="chatbot-toggle-btn" type="button" aria-label="Open CyberGuide Chatbot" title="Ask CyberGuide AI Assistant">
+            <span class="chatbot-toggle-icon">🤖</span>
+            <span class="chatbot-toggle-text">CyberGuide</span>
+            <span class="chatbot-pulse-dot" aria-hidden="true"></span>
+        </button>
+
+        <!-- Chatbot window -->
+        <div id="chatbot-window" class="chatbot-window" hidden role="dialog" aria-modal="true" aria-label="CyberGuide AI Assistant">
+            <div class="chatbot-header">
+                <div class="chatbot-header-info">
+                    <div class="chatbot-avatar">🛡️</div>
+                    <div class="chatbot-title-box">
+                        <div class="chatbot-name">CyberGuide AI</div>
+                        <div class="chatbot-subtitle"><span class="online-indicator">●</span> Online • Ethiopian Cyber Safety</div>
+                    </div>
+                </div>
+                <div class="chatbot-header-actions">
+                    <button id="chatbot-lang-toggle" class="chatbot-action-btn" type="button" title="Switch Language (English / አማርኛ / Afaan Oromoo)" aria-label="Switch Language">
+                        <span id="chatbot-lang-label">አማ</span>
+                    </button>
+                    <button id="chatbot-clear-btn" class="chatbot-action-btn" type="button" title="Clear conversation" aria-label="Clear chat">
+                        🗑️
+                    </button>
+                    <button id="chatbot-close-btn" class="chatbot-action-btn" type="button" title="Close chatbot" aria-label="Close chatbot">
+                        ✕
+                    </button>
+                </div>
+            </div>
+
+            <!-- Messages area -->
+            <div id="chatbot-messages" class="chatbot-messages" role="log" aria-live="polite">
+                <!-- Messages populated by script.js -->
+            </div>
+
+            <!-- Quick suggestion pills -->
+            <div id="chatbot-quick-chips" class="chatbot-quick-chips" aria-label="Suggested questions">
+                <!-- Chips populated by script.js -->
+            </div>
+
+            <!-- Input area -->
+            <form id="chatbot-form" class="chatbot-input-form">
+                <input
+                    type="text"
+                    id="chatbot-input"
+                    class="chatbot-input"
+                    placeholder="Ask anything in English or Amharic..."
+                    autocomplete="off"
+                    required
+                />
+                <button type="submit" id="chatbot-send-btn" class="chatbot-send-btn" aria-label="Send message">
+                    ➤
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
